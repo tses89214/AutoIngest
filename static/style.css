@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#validationResult {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#expectedSchema {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#expectedSchema h2 {
+    margin-top: 0;
+}
+
+#expectedSchema ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#expectedSchema li {
+    margin-bottom: 5px;
+}
+
+#preview, #expectedSchema {
+    overflow-x: auto;
+}
+
+.previewTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.previewTable th,
+.previewTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.previewTable th {
+    background-color: #f2f2f2;
+}
