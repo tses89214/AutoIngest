@@ -11,7 +11,7 @@ This data ingestion platform streamlines data collection from various department
 4. Start the application using:
 
 ```bash
-docker-compose up --build
+docker compose up --build -d
 ```
 
 This command builds the Docker image and starts the application containers.
