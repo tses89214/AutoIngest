@@ -1,48 +1,77 @@
 body {
-    font-family: sans-serif;
-    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #F9F9F9;
+    color: #5C4B3A;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
+    color: #3B3C36;
 }
 
 form {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-input[type="file"] {
-    margin-bottom: 10px;
+input[type="file"], select {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #3B3C36;
+    border-radius: 5px;
+    width: 70%;
+    background-color: #F9F9F9;
+    color: #5C4B3A;
+    font-size: 16px;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    padding: 12px 24px;
+    background-color: #3B3C36;
+    color: #FFFFFF;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #3e8e41;
+    background-color: #A8C3A0;
 }
 
 #validationResult {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
     text-align: center;
 }
 
 #expectedSchema {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
 }
 
 #expectedSchema h2 {
     margin-top: 0;
+    color: #666;
 }
 
 #expectedSchema ul {
@@ -51,7 +80,7 @@ button:hover {
 }
 
 #expectedSchema li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 #preview, #expectedSchema {
@@ -66,10 +95,15 @@ button:hover {
 .previewTable th,
 .previewTable td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 12px;
     text-align: left;
 }
 
 .previewTable th {
-    background-color: #f2f2f2;
+    background-color: #3B3C36;
+    color: #FFFFFF;
+}
+
+.previewTable tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
